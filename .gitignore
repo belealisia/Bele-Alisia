@@ -1,0 +1,7 @@
+#Ignorando todas las carpetas de compilacion 
+#Ignoring all the compiling folders
+#Ignorarea compilarii tuturor folderelor
+output/
+build/
+dist/
+bin/
