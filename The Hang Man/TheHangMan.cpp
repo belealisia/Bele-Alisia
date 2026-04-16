@@ -22,7 +22,15 @@ string displayWord(const string& secretWord, const string& guessedLetters) {
 
 int main() {
     // Create a list of words to choose from
-    vector<string> words = {"apple", "banana", "cherry", "date", "elderberry"};
+    vector<string> words = {"apple", "banana", "cherry", "date", 
+        "elderberry", "mountain", "glass", "shadow", "river", "clock", 
+        "forest", "paper", "thunder", "pillow", "engine", "mirror", 
+        "ocean", "candle", "ladder", "blanket", "rocket", "feather", 
+        "puzzle", "window", "carpet", "bottle", "camera", "keyboard", 
+        "desert", "helmet", "bridge", "pocket", "lantern", "marble", 
+        "whistle", "compass", "suitcase", "hammer", "notebook", "cable", 
+        "jacket", "diamond", "shovel", "basket", "violin", "helmet", 
+        "corridor", "tower", "magnet", "umbrella", "satellite"};
     
     // Choose a random word from the list
     srand(time(0)); // Seed the random number generator with current time
